@@ -21,8 +21,8 @@
             <span v-if="showBooks">Hide Books</span>
             <span v-else>Show Books</span>
         </button>
-        <!-- It uses CSS Block display: none
-             v-if removes from DOM completely -->
+        <!-- v-show uses CSS Block display: none
+             v-if removes element from DOM completely -->
         <div v-show="showBooks">
             currently showing books
         </div>

@@ -11,11 +11,13 @@
 <body>
     <h1>Hello Vue</h1>
     <div id="app">
+        <!-- Inside this template we can output dynamic data -->
         <!-- <h2>It's a template</h2> -->
         <!-- Output a variable declared inside a vue app -->
         <p>{{ title }}  {{ author }} {{ age }}</p>
         <!-- v-on here is a directive here @click is shorthand
-             v is vue and on is onmousedown onclick it can react to events and then followed by event name -->
+             v is vue and on is onmousedown onclick it can react
+              to events and then followed by event name -->
         <button v-on:click="age++">Increase Age</button>
         <button v-on:click="age--">Decrease Age</button>
         <div @click="changeTitle('Oathbringer')">
