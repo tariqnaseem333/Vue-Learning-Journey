@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <title>Learning Vue</title>
+</head>
+
+<body>
+    <h1>Hello Vue</h1>
+    <div id="app">
+        <!-- v-if will evaluate expression and based on it's value
+             it will show the content of this element -->
+        <div v-if="showBooks">
+            <p>{{ title }}  {{ author }} {{ age }}</p>
+        </div>
+        <!-- User will toggle on off state using v-if directive -->
+        <button @click="toggleShowBooks">
+            <span v-if="showBooks">Hide Books</span>
+            <span v-else>Show Books</span>
+        </button>
+        <!-- It uses CSS Block display: none
+             v-if removes from DOM completely -->
+        <div v-show="showBooks">
+            currently showing books
+        </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

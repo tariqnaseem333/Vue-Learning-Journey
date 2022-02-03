@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <title>Learning Vue</title>
+</head>
+
+<body>
+    <h1>Hello Vue</h1>
+    <div id="app">
+        <!-- <h2>It's a template</h2> -->
+        <!-- Output a variable declared inside a vue app -->
+        <p>{{ title }}  {{ author }} {{ age }}</p>
+        <!-- v-on here is a directive here @click is shorthand
+             v is vue and on is onmousedown onclick it can react to events and then followed by event name -->
+        <button v-on:click="age++">Increase Age</button>
+        <button v-on:click="age--">Decrease Age</button>
+        <div @click="changeTitle('Oathbringer')">
+            Change Book Title
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
