@@ -9,7 +9,7 @@
 6.) Outputing Lists\
 7.) Attribute Binding\
 8.) Dynamic Classses\
-9.) Attribute Binding\
+9.) Attribute Binding
 
 ### Day-2: Learning
 1.) Vue CLI Basics and file structure\
