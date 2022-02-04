@@ -9,4 +9,10 @@
 6.) Outputing Lists\
 7.) Attribute Binding\
 8.) Dynamic Classses\
-9.) Attribute Binding
+9.) Attribute Binding\
+
+### Day-2: Learning
+1.) Vue CLI Basics and file structure
+2.) Vue Files and Templates
+3.) Template Refs 
+4.) Multiple Components
