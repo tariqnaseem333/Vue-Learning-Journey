@@ -52,7 +52,7 @@
                  iterate through the whole array -->
             <!-- Dynamic Classes: Give classes to elements
                  based on certain condition -->
-            <!-- This key will become class name ifconditional is true -->
+            <!-- This key will become class name if conditional is true -->
             <ul>
                 <li v-for="item in filteredBooks" :class="{ fav: item.isFav }" @click = "toggleClass(item)">
                     <h3> {{ item.title}} </h3>

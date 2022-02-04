@@ -15,8 +15,8 @@ const app = Vue.createApp({
         }
     },
     methods: {
-        changeTitle(title)  {
-            this.title = title
+        changeTitle(user_input)  {
+            this.title = user_input
         }
     }
 })
