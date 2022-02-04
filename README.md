@@ -12,7 +12,7 @@
 9.) Attribute Binding\
 
 ### Day-2: Learning
-1.) Vue CLI Basics and file structure
-2.) Vue Files and Templates
-3.) Template Refs 
-4.) Multiple Components
+1.) Vue CLI Basics and file structure\
+2.) Vue Files and Templates\
+3.) Template Refs \
+4.) Multiple Components\
