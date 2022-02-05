@@ -16,3 +16,6 @@
 2.) Vue Files and Templates\
 3.) Template Refs \
 4.) Multiple Components
+
+### Day-3: Learning
+1.) Created Reaction Timer Project
