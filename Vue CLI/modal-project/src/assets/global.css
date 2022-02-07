@@ -1,0 +1,10 @@
+/* These are goblal styles that will be 
+applied everywhere (every component) in the whole vue website */
+
+body  {
+    margin: 0;
+}
+
+p  {
+    font-style: italic;
+}
