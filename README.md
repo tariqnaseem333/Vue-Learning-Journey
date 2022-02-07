@@ -23,3 +23,4 @@
 ### Day-4: Learning
 1.) Learned slot and teleport\
 2.) Added result component to reaction timer project
+3.) Learned Forms and Inputs in Vue.js
