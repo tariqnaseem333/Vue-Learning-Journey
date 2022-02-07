@@ -19,3 +19,6 @@
 
 ### Day-3: Learning
 1.) Created Reaction Timer Project
+
+### Day-4: Learning
+1.) Learned slot and teleport
