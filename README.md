@@ -21,4 +21,5 @@
 1.) Created Reaction Timer Project
 
 ### Day-4: Learning
-1.) Learned slot and teleport
+1.) Learned slot and teleport\
+2.) Added result component to reaction timer project
