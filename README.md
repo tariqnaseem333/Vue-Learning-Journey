@@ -24,3 +24,9 @@
 1.) Learned slot and teleport\
 2.) Added result component to reaction timer project\
 3.) Learned Forms and Inputs in Vue.js
+
+### Day-5: Learning
+1.) Learned Vue Forms and Inputs\
+2.) Learned Vue Router Folder Structure\
+3.) Learned Vue Router Links\
+4.) Learned Vue Router Parameters
