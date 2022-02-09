@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Jobs from '../views/jobs/Jobs.vue'
+import NotFound from '../views/NotFound.vue'
 import JobDetails from '../views/jobs/JobDetails.vue'
 
 
@@ -26,11 +27,28 @@ const routes = [
     component: Jobs
   },
   {
-    // here id is the route parameter 
+    // here id is the route parameter ':parameter_name'
     path: '/jobs/:id',
     name: 'JobDetails',
-    component: JobDetails
+    component: JobDetails,
+    // it means we can accept any route parameters a prop
+    props: true
   },
+  //  Redirect the path all-jobs to jobs. Previous version of
+  //  the website was using it but now is not in use anymore
+  // redirect the path
+  {
+    path: '/all-jobs',
+    redirect: '/jobs'
+  },
+  // For the page that doesn't exist we want to show 404 page
+  // catchall 404: it will catch all the route that is not 
+  // present above
+  {
+    path: '/:catchAll(.*)',
+    name: "NotFound",
+    component: NotFound
+  }
 ]
 
 const router = createRouter({
