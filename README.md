@@ -30,3 +30,9 @@
 2.) Learned Vue Router Folder Structure\
 3.) Learned Vue Router Links\
 4.) Learned Vue Router Parameters
+
+### Day-6: Learning
+1.) Learned Dynamic Links\
+2.) Learned Redirect and 404s\
+3.) Learned Programmatic Navigation\
+4.)
