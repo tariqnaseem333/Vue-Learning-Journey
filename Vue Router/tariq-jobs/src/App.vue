@@ -78,4 +78,14 @@ button {
 <!-- anything that is not very specific to page build it inside the
      components folder -->
 
+<!-- How to fetch an exteral data from inside of a vue component-->
+<!-- Json server will allow you to use a single json file as a
+     database resource.It also provides the local api endpoints
+     like GET, POST so that you can interact with the data-->
 
+<!-- Top level keys are seen as a resource.In json file, the 
+     string must be in double quotes not in single quotes.
+     How do we use json server to watch a file
+     json-server --watch <json_fileName>-->
+
+<!-- Sending get request for json data from the vue component.-->
