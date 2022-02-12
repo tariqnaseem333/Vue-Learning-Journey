@@ -14,7 +14,7 @@
     <input type="text" ref="name" />
     <!-- Event Modifier : here right click ,shift, alt-->
     <button @click.alt="handleClick">click me (alt)</button>
-    <!-- Only string can e passed inside this 
+    <!-- Only string can be passed inside this 
       in order to pass data like array you have to use data bind -->
     <div v-if="showModal">
       <!-- Passing header as a prop into modal component and
@@ -67,7 +67,7 @@ export default {
     handleClick() {
       console.log(this.$refs.name);
       // this.$refs.name : will give you the reference of the
-      // element ffrom template
+      // element from template
       this.$refs.name.classList.add("active");
       this.$refs.name.focus();
     },
