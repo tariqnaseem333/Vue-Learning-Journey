@@ -52,3 +52,7 @@
 2.) Learned Lifecycle Hooks in Composition API\
 3.) Learned Fetching Data in Compostion API\
 4.) Learned Reusable Functions in Composition API
+
+### Day-9: Learning
+1.) Learned firebase authenication and login\
+2.) Build a login page vue application with firebase authentication and login
