@@ -46,3 +46,9 @@
 6.) Learned Refs vs Reactive\
 7.) Learned Computed Values in Composition API\
 8.) Learned watch and watch Effect in Composition API
+
+### Day-8: Learning
+1.) Learned Props in Composition API\
+2.) Learned Lifecycle Hooks in Composition API\
+3.) Learned Fetching Data in Compostion API\
+4.) Learned Reusable Functions in Composition API
