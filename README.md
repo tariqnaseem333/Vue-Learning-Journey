@@ -56,3 +56,7 @@
 ### Day-9: Learning
 1.) Learned firebase authenication and login\
 2.) Build a login page vue application with firebase authentication and login
+
+### Day-10: Learning
+1.) Learned JavaScript Concepts Required in Vue\
+2.) 
