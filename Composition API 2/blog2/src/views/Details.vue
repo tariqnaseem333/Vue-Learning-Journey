@@ -1,19 +1,32 @@
 <template>
-  <div v-if="error">
-    {{ error }}
-  </div>
-  <div v-if="post" class="post">
-    <h3>{{ post.title }}</h3>
-    <p class="pre">{{ post.body }}</p>
+  <div>
+    <div v-if="error">
+      {{ error }}
+    </div>
+    <div v-if="post" class="post">
+      <h3>{{ post.title }}</h3>
+      <p class="pre">{{ post.body }}</p>
+    </div>
+    <div v-else>
+      <Spinner />
+    </div>
   </div>
 </template>
 
 <script>
 import getPost from "../composables/getPost";
+import Spinner from "../components/Spinner";
+import { useRoute } from "vue-router";
+
 export default {
+  components: { Spinner },
   props: ["id"],
   setup(props) {
-    const { post, error, load } = getPost(props.id);
+    // useRoute will give you the info about the url
+    // you are currently on
+    const route = useRoute();
+    console.log(route);
+    const { post, error, load } = getPost(route.params.id);
 
     load();
 
