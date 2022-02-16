@@ -59,4 +59,7 @@
 
 ### Day-10: Learning
 1.) Learned JavaScript Concepts Required in Vue\
-2.) 
+2.) Made a Loading Spinner in Blog project\
+3.) Made a web form in Blog Project\
+4.) Send a post request to add data to json file in blog project\
+
