@@ -61,5 +61,10 @@
 1.) Learned JavaScript Concepts Required in Vue\
 2.) Made a Loading Spinner in Blog project\
 3.) Made a web form in Blog Project\
-4.) Send a post request to add data to json file in blog project\
+4.) Send a post request to add data to json file in blog project
+
+### Day-11: Learning
+1.) Learned useRouter and use Route in Composition API\
+2.) Created a Tag Cloud and Tag Route in Blog Project
+3.)
 
