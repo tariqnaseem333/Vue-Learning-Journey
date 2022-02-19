@@ -66,5 +66,5 @@
 ### Day-11: Learning
 1.) Learned useRouter and use Route in Composition API\
 2.) Created a Tag Cloud and Tag Route in Blog Project
-3.)
 
+### Day-12: Start Working on the Company Project "epf-notifications"
